@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<script>
+			
+			var num=parseInt(prompt("Enter number"));
+			var i,j,k,l,arr=[];
+			
+			for(i=1;i<=num;i++){
+			k=i;
+				for(l=1;l<=num-i;l++){
+					document.write(0);
+					arr.push(0);
+					}
+				for(j=1;j<=i;j++){
+					while(k>=j){
+						
+						document.write(k);
+						arr.push(k);
+						
+						k--;
+					}
+					}
+				document.write("<br/>");
+				}
+				document.write("<br/>Array :"+arr.toString());
+				
+		</script>
+	</head>
+		<body>
+		
+		</body>
+</html>
